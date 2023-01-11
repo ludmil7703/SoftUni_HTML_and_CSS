@@ -1,0 +1,12 @@
+h1{
+    color: lightsalmon;
+}
+section article h1{
+    color: aqua;
+}
+#pura{
+    font-size: 15px;
+}
+.red{
+    color: blueviolet;
+}
