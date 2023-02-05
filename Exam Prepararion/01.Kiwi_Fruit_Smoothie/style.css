@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif');
+.fruit{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 1000px;
+    height: 500px;
+    font-family: 'PT Serif';
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.left{
+    width: 50%;
+    background-image: url('./image/image1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 40px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right{
+    width: 50%;
+background-image: url('./image/kiwi-smoothie.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.left h2{
+    text-align: center;
+    border-bottom: 2px dotted green;
+    
+}
+.span{
+    display: flex;
+    justify-content: space-between;
+}
+body ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+body ul li{
+    padding: 2px 0px;
+}
+.bold{
+    color: green;
+    font-weight: bold;
+}
+td, th{
+    border: 2px solid green;
+    
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
