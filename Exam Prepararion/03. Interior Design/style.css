@@ -1,0 +1,162 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Abril Fatface", cursive;
+}
+
+header{
+   width: 100vw;
+   height: 100vh;
+    grid-area: head;
+    background-image: url("./image/image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+}
+.main{
+  
+    background-color: #f2f0f3;
+    padding: 40px;
+}
+.main h1{
+    text-transform: uppercase;
+}
+.main p strong{
+    text-transform: uppercase;
+}
+.main p{
+    margin: 20px;
+}
+
+.footer{
+   
+    background-color: #f2f0f3;
+    
+}
+.footer h3{
+    border-bottom:3px solid #8c8c8c;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.foot-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 40px;
+}
+.info{
+   margin: 5px 10px;
+}
+.info span{
+    font-style: italic;
+    font-weight: bold;
+}
+#mail{
+    width: 350px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #bab1ad;
+    border-radius: 5px;
+    border-color: transparent;
+}
+#mail::placeholder{
+    color: white;
+    font-size: 14px;
+}
+button{
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #67784d;
+    border-color: transparent;
+    color: white;
+}
+aside{
+    background-color: #bab1ad;
+    
+}
+.num{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    
+    
+}
+aside .desc{
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.transperant{
+    width: 200px;
+    height: 150px;
+    box-shadow: 0 0 10px 1px #333333;
+    padding: 10px 20px;
+}
+.transperant .first{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    font-family: Roboto, serif;
+}
+.transperant .second{
+    border-top: 2px solid #f2f2f2;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    width: 100px;
+}
+.container{
+    width: 250px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px 1px #333333;
+    float: right;
+    height: unset;
+    background-image: linear-gradient(to right,  #9b9189, #c9c7c6);
+    color: white;
+    text-align: right;
+    text-shadow: 1px 1px 2px black;
+}
+.container .big{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: normal;
+    color: #8d8581;
+    margin-top: 20px;
+}
+.flex{
+    width: 100vw;
+    display: flex;
+}
+.left{
+    width: 70%;
+}
+.right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 20px;
+
+}
