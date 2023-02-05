@@ -1,0 +1,29 @@
+@import url(//db.onlinewebfonts.com/c/538ce341d9a1b3aaa2860e7014ac93c0?family=Sentinel+Bold);
+@import url(//db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular);
+@import url(//db.onlinewebfonts.com/c/02fb003368979ba04752e4f3b4c4cebd?family=Graphik+Web+Semibold);
+@import url(//db.onlinewebfonts.com/c/9d6de58d886ba70d324b9af0ee96d232?family=Sentinel+Medium);
+body{
+    text-align: center;
+}
+h1{
+    font-family: 'Sentinel A', 'Sentinel B', Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.15;
+    color: #747474;
+    font-weight: 400;
+}
+span{
+    font-family: 'Graphik Semibold Web', 'Open Sans', 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.46;
+    color: #5c5a5a;
+}
+p{
+    font-family: 'Graphik Regular Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.46;
+    color: #5c5a5a;
+}
