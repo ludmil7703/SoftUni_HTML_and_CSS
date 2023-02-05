@@ -1,0 +1,217 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, sans-serif
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style-type: none;
+    width: 70%;
+    text-align: right;
+    margin: 10px 50px;
+}
+.active{
+    border-bottom: 3px solid #51BCCD;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+    padding-bottom: 5px;
+}
+nav p{
+    font-size: 30px;
+    padding-left: 50px;
+    margin: 10px 50px;
+}
+nav p span{
+    color: #51BCCD;
+}
+nav{
+    display: flex;
+
+}
+main .first{
+    width: 100%;
+    height: 450px;
+    background-image: url('./images/slide2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main .transparent{
+    width: 480px;
+    font-size: 40px;
+    padding: 10px 20px;
+    font-weight: 500;
+    background-color: rgb( 0,0, 0, 0.5);
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    color: white;
+}
+
+main .transparent p{
+    margin: 10px 0px;
+}
+main .transparent button{
+    margin: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 50px;
+    background-color: #008CBA;
+    border: transparent;
+}
+main .second{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+main .second p{
+    font-size: 18px;
+}
+main .second h1{
+    font-size: 28px;
+    font-weight: 100;
+}
+main .second .line{
+    border-top: 4px solid #51BCCD;
+    width: 90px;
+    margin: auto;
+    position: relative;
+    top: -15px;
+}
+main .second button{
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #454545;
+    border-radius: 50px;
+}
+main .three{
+    background-color: #EEF0F1;
+    padding: 20px 100px;
+}
+main .three h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 100;
+}
+main .three .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+main .three .images .image{
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+main .three .image img{
+    width: 400px;
+}
+main .three .image h4{
+    text-align: center;
+}
+main .three .image p{
+    text-align: center;
+    padding: 0 10px;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+}
+.desc button{
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #454545;
+    color: white;
+}
+footer .first{
+    width: 100%;
+    background-color: #393F43;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+footer .first .subscribe{
+    display: flex;
+    margin-bottom: 40px;
+    height: 40px;
+}
+#mail{
+    width: 300px;
+    background-color: #545A5E;
+    margin-right: 20px;
+}
+#mail::placeholder{
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 14px;
+}
+footer button{
+    padding: 0px 40px;
+    border-radius: 5px;
+    background-color: #6BBFFF;
+    color: white;
+    font-size: 16px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+footer .second{
+    background-color: #2F3539;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+footer .second ul{
+    list-style-type: none;
+    padding: 0px;
+}
+footer .second h5{
+    font-size: 20px;
+}
+footer .second li{
+    line-height: 1.5;
+}
+footer .second li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+footer .three{
+    background-color: #262B2F;
+    color: white;
+    text-align: center;
+}
+footer .three span{
+    color: #107095;
+}
+footer .first .line{
+    width: 100px;
+position: absolute;
+border-top: 3px solid white;
+top: 50px;
+}
