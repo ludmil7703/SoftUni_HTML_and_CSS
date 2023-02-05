@@ -1,0 +1,34 @@
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+     main .left-to-right article{
+        border-radius: 10%;
+        width: 80%;
+        height: min-content;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding: 40px;
+    }
+    button{
+        display: none;
+    }
+    header h1{
+        font-size: 2.5rem;
+    }
+    header p{
+        font-size: 1rem;
+    }
+    main section:nth-child(2),
+main section:nth-child(4){
+    flex-direction: column;
+    margin: 0px auto;
+    align-items: center;
+}
+section form label{
+   text-align: center;
+}
+}
