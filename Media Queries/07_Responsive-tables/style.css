@@ -1,0 +1,37 @@
+@import url(./reset.css);
+@import url(./typography.css);
+.second{
+    display: none;
+}
+body{
+    background-color: #eeeeee;
+}
+table, th, td{
+border: 2px solid gray;
+border-collapse: collapse;
+}
+th{
+    background-color: #333333;
+    color: #fff;
+}
+tr:nth-child(odd){
+    background-color: #d1cccc;
+}
+thead{
+    display: table-header-group;
+}
+
+table{
+   width: 100%;
+}
+@media screen  and (max-width:480px){
+   .first{
+    display: none;
+   }
+   .second{
+    display: contents;
+
+   }
+   
+  
+}

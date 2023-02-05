@@ -1,0 +1,34 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+section{
+    height: 50vh;
+}
+section:first-child{
+    background-color: lightgreen;
+}
+section:first-child img{
+    width: 300px;
+}
+section:last-child{
+    background-color: lightsalmon;
+}
+section:last-child img{
+    width: 200px;
+}
+
+.card {
+    position: relative;
+    display: block;
+}
+
+ .viewport{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%) ;
+}
+section .viewport .icon{
+    color: white;
+    position: absolute;
+    right: 6px;
+    bottom: 12px;
+}

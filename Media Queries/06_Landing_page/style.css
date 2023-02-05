@@ -1,0 +1,215 @@
+@import url(./reset.css);
+@import url(./buttons.css);
+@import url(./forms.css);
+@import url(./typography.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+body{
+    box-sizing: border-box;
+padding: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 50px;
+}
+header p.first{
+    color: #7f0f8b;
+    font-size: 30px;
+    font-weight: bold;
+}
+header p.second{
+    text-transform: uppercase;
+    font-size: 8px;
+    position: relative;
+    top: -8px;
+}
+header{
+    display: flex;
+    width: 100vw;
+    
+}
+div.header{
+    min-width: 200px;
+  width: 40vw;
+    text-align: center;
+}
+
+header ul{
+    display: flex;
+    width: 60vw;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+  
+}
+header ul a{
+    text-decoration: none;
+    padding: 15px 0px;
+    width: 100px;
+    color: black;
+    display: inline-block;
+   
+}
+.need .first{
+    width: 490px;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.need{
+    position: relative;
+    flex: 100%;
+    width: 100vw;
+    height: 200px;
+
+}
+.need img{
+    float: right;
+    width: 100px;
+}
+.need a{
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 2px;
+    padding: 2px 12px;
+    position: relative;
+    top: 20px;
+}
+main img{
+   object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid gray;
+    align-items: center;
+}
+
+.team{
+    flex: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.team h1{
+    flex: 100%;
+    text-align: center;
+    font-size: 26px;
+}
+.team p.line{
+    flex: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    top: -40px;
+}
+.people{
+   
+    width: 100px;
+    flex: 30%;
+    padding: 50px;
+    text-align: center;
+}
+.name{
+    font-weight: bold;
+    
+}
+.desc{
+    font-style: italic;
+}
+.sign-up{
+    border: 2px solid;
+    text-align: center;
+    padding: 20px;
+    background-color: #68347b;
+}
+.sign-up .line{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: -30px;
+    flex: 100%;
+}
+.sign{
+    position: relative;
+    top: -15px;
+}
+.sign a{
+    border: 2px solid;
+    text-decoration: none;
+    padding: 5px 12px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.sign input{
+    border: 2px solid;
+    border-radius: 5px;
+}
+main{
+    
+    width: 95vw;
+}
+.test{
+    flex: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.test .people2{
+    flex: 30%;
+    padding: 50px;
+    text-align: center;
+}
+.test h1{
+    flex: 100%;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 26px;
+}
+footer{
+    display: flex;
+    border: 2px solid;
+    background-color: #fefefe;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+footer .purple{
+    flex: 30%;
+    padding: 10px;
+}
+footer ul{
+list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer .nav2{
+    padding-right: 30px;
+}
+footer .nav1 h3{
+position: relative;
+left: 35px;
+}
+footer .contacts{
+    flex: 33%;
+    padding-left: 10px;
+}
+@media screen and (max-width: 600px){
+    header nav{
+        display: none;
+    }
+    header .header{
+        flex: 50%;
+    }
+    main .people{
+        flex: 50%;
+    }
+    .test .people2{
+        flex: 50%;
+    }
+}

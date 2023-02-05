@@ -1,0 +1,51 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(238, 238, 238);
+    height: 500px;
+    position: relative;
+    font-family: Georgia, serif;
+    font-size: 1em;
+
+}
+
+section {
+    width: 300px;
+    height: 500px;
+}
+
+img {
+    width: 100%;
+    position: absolute;
+}
+
+.card {
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    position: absolute;
+    top: 320px;
+    padding: 0px 30px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    left: 290px;
+    background-color: rgb(0, 153, 0);
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    margin: 15px;
+}
