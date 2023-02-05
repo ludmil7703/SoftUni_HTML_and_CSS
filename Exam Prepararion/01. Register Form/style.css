@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*,
+*::before,
+*::after {
+    font-family: "Mulish", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.form input {
+    display: block;
+}
+
+.name {
+    display: flex;
+}
+
+.img-back {
+    width: 1200px;
+    position: relative;
+}
+
+.img-form {
+    width: 550px;
+    position: absolute;
+    border-radius: 20px;
+    left: 335px;
+    top: 150px;
+
+}
+
+form {
+    width: 230px;
+    margin-left: 40px;
+    position: absolute;
+    top: 190px;
+    left: 335px;
+
+}
+
+legend {
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.first-name label {
+    font-size: 8px;
+}
+
+.first-name input {
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border:2px solid #cccccc;
+    background-color: #f8f8f8;
+    padding: 3px 0px;
+    margin-right: 20px;
+}
+
+.last-name input {
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border:2px solid #cccccc;
+    background-color: #f8f8f8;
+    padding: 3px 0px;
+}
+.last-name label {
+    font-size: 8px;
+}
+.mail label{
+   font-size: 8px;
+}
+.mail input{
+    width: 220px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border:2px solid #cccccc;
+    background-color: #f8f8f8;
+    padding: 3px 0px;
+}
+.password label{
+    font-size: 8px;
+}
+.password input{
+    width: 220px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border:2px solid #cccccc;
+    background-color: #f8f8f8;
+    padding: 3px 0px;
+}
+.check{
+    font-size: 8px;
+}
+.check input{
+    position: relative;
+    top: 3px;
+}
+button{
+   background-color: #ae3c33;
+   color: white;
+   font-size: 10px;
+   text-transform: uppercase;
+   border-radius: 20px;
+   border: solid #ae3c33;
+   padding: 4px 10px;
+   margin-top: 10px;
+   position: relative;
+   left: 50px;
+}
